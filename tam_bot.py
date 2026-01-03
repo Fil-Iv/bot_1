@@ -5,7 +5,7 @@ from aiogram.enums import ParseMode
 import random
 
 # Замени с твоя Telegram bot token
-API_TOKEN = "7956362362:AAF28BTDCVTh-Qu9sdEVGmB9hv7h8c2n3O0"
+API_TOKEN = "7
 
 # Примерни Temu продукти с твоите affiliate линкове
 PRODUCTS = [
@@ -32,4 +32,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
